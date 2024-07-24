@@ -153,7 +153,7 @@
     \begin{frame}
     \frametitle{Maximally Localized Wannier Functions (MLWFs)}
     \begin{itemize}
-        \item The most popular way to the gauge: Maximally-localized Wannier functions (MLWF).
+        \item The most popular way to the gauge: Maximally-localized Wannier Functions (MLWF).
         \item We minimize the quadratic spread of the position operator of a manifold
         \begin{align}
         \Omega=\sum_{j=1}^J\left[\left\langle\mathbf{0} j\left|r^2\right| \mathbf{0} j\right\rangle-|\langle\mathbf{0} j|\mathbf{r}| \mathbf{0} j\rangle|^2\right]
@@ -270,18 +270,11 @@
             \item GW is a many-body perturbation theory method used to calculate the electronic structure of materials.
             \item Theoretical framework: the many-body perturbation theory. The Green's function (G) and the screened Coulomb interaction (W).
             \item Beyond DFT method: Provides more accurate quasiparticle energies compared to Density Functional Theory (DFT).
+            \item         Moderately correlated systems may be solved numerically
+                from first principles using many-body perturbation theory
+                (e.g., GW and GW-BSE approaches, and beyond)      
         \end{itemize}
         \end{frame}
-
-        \begin{frame}
-            \frametitle{Introduction to GW Approximation}
-            \begin{itemize}
-                \item         Moderately correlated systems may be solved numerically
-                from first principles using many-body perturbation theory
-                (e.g., GW and GW-BSE approaches, and beyond)                \item Theoretical framework: the many-body perturbation theory. The Green's function (G) and the screened Coulomb interaction (W).
-                \item Beyond DFT method: Provides more accurate quasiparticle energies compared to Density Functional Theory (DFT).
-            \end{itemize}
-            \end{frame}
 
 
         \begin{frame}
@@ -384,9 +377,22 @@
         \begin{figure}
             \centering
             \includegraphics[width=0.4\linewidth]{bse_optical_spectrum.png}
-            \caption{  Absorption spectrum of MoS$_2$ calculated with the RPA and BSE using the $G_0W_0$ quasiparticle band structure.}
+            \caption{  Absorption spectrum of MoS$_2$ calculated with the RPA and BSE using the $G_0W_0$ quasiparticle band structure. (Thygesen PRB 2013)}
         \end{figure}
         \end{frame}
+
+        \begin{frame}
+            \frametitle{Example: Optical Spectrum of MoS$_2$}
+            \begin{itemize}
+                \item BSE captures excitonic peaks in the optical absorption spectrum of monolayer MoS$_2$.
+                \item Matches experimental spectra and reveals excitonic binding energies.
+            \end{itemize}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.4\linewidth]{bse_optical_spectrum2.png}
+                \caption{  Absorption spectrum of MoS$_2$ computed using BSE in comparison with experiment. (Diana PRL 2013)}
+            \end{figure}
+            \end{frame}
         
         \begin{frame}
         \frametitle{Computational Tools for GW and BSE}
@@ -552,7 +558,7 @@
             \item Comprehensive coverage of electron-phonon physics and computational methods
             \item Balance of theoretical lectures and practical tutorials
             \item Importance of hands-on experience with state-of-the-art tools
-            \item Networking and collaborative opportunities
+            % \item Networking and collaborative opportunities
         \end{itemize}
         \end{frame}
 
@@ -591,14 +597,14 @@
             \begin{frame}
                 \frametitle{Properties of Weyl semimetal (may be interesting)}
                 \begin{itemize}
-                   \item Thermoelectric: Practical efforts to achieve low-temperature thermoelectrics using NLSs may therefore find it fruitful to identify materials with a nearly flat nodal line. (PRXEnergy.3.023007)   
+                   \item Thermoelectric: Practical efforts to achieve low-temperature thermoelectrics using nodal loop semimetals may therefore find it fruitful to identify materials with a nearly flat nodal line. (PRXEnergy.3.023007)   
                    \item Exitonic effects in Weyl semimetals.
                    \item Exiton in Weyl phonons: no research paper on this so far!
                 \end{itemize}
             \end{frame}
 
             \begin{frame}
-                \frametitle{Applications of Direct Band Gap semiconductor}
+                \frametitle{Applications of Direct Band Gap Semiconductor}
                 \begin{itemize}
     Optoelectronic devices: Direct band gap materials, with their high radiative recombination rates and strong absorption of light, are widely used in the development of lasers, LEDs, and photodetectors. These devices rely on efficient light emission and absorption for their operation.
     Solar cells: Direct band gap materials are also utilized in solar cells, where their high absorption coefficient enables efficient conversion of sunlight into electricity.
